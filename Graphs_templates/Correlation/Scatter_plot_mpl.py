@@ -6,7 +6,7 @@ import seaborn as sns
 iris = sns.load_dataset('iris')
 
 # Prepare Data 
-# Create as many colors as there are unique midwest['category']
+# Create as many colors as there are unique
 species = np.unique(iris['species'])
 colors = [plt.cm.tab10(i/float(len(species)-1)) for i in range(len(species))]
 
@@ -26,6 +26,6 @@ plt.gca().set(xlabel='sepal_width', ylabel='sepal_length')
 plt.xticks(fontsize=12); plt.yticks(fontsize=12)
 plt.title("Scatterplot of sepal widths and special lenght for species in Iris", fontsize=22)
 plt.legend(fontsize=12)    
-plt.show() 
+plt.grid()
 
-plt.savefig('Scattered_plot_mpl.png')
+plt.savefig('Scatter_plot_mpl.png')

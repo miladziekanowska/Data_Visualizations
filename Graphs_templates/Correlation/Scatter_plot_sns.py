@@ -28,5 +28,6 @@ plt.title('Scatterplot of sepal widths and special lenght for species in Iris')
 plt.xlabel('Sepal width (mm)')
 plt.ylabel('Sepal lenght (mm)')
 plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', borderaxespad=0)
+plt.grid()
 
-plt.savefig('Scattered_plot_sns.png')
+plt.savefig('Scatter_plot_sns.png')
