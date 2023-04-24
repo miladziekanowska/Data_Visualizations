@@ -38,8 +38,8 @@ We can also speak about the strenght of correlation, when speaking about how clo
 This works both on positive and negative correlation.
 
 For this repository, we will consider three different types of correlation graphs:
-1. **Scattered plot** - which is a basic form of graph to show correlation. When we are presenting different groups from our data, it's best to show each group in different color. IMPORTANT! X and Y in scattered plot cannot be categorical data, since that will not give us much information - is should be numerical data only (best if it's continuous, but with a bigger range of discrete data it could work as well, depening what it means);
-2. **Correlogram** - this graph provides us with a matrix representing the correlation between all the columns in a dataset. 
-3. **Pairwise plot** - is a favorite in exploratory analysis to understand the relationship between all possible pairs of numeric variables. It is a must have tool for bivariate analysis.
+1. **Scatter plot** - which is a basic form of graph to show correlation. When we are presenting different groups from our data, it's best to show each group in different color. IMPORTANT! X and Y in scattered plot cannot be categorical data, since that will not give us much information - is should be numerical data only (best if it's continuous, but with a bigger range of discrete data it could work as well, depening what it means);
+2. **Correlogram** - this graph provides us with a matrix representing the correlation between all the columns in a dataset. For that we need to generate a non-visual correlation matrix using Pandas. Also, in the form presented here, the correlogram is a special kind of heatmap.
+3. **Pairwise plot** - is a favorite in exploratory analysis to understand the relationship between all possible pairs of numeric variables. It is a must have tool for bivariate analysis. It is possible to create with matplotlib, however that would require quite a lot of work, while seaborn and plotly do it with few lines of code. Usually we use pairwise plots as our working plots.
 
 ## Deviation
