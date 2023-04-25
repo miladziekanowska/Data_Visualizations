@@ -43,3 +43,18 @@ For this repository, we will consider three different types of correlation graph
 3. **Pairwise plot** - is a favorite in exploratory analysis to understand the relationship between all possible pairs of numeric variables. It is a must have tool for bivariate analysis. It is possible to create with matplotlib, however that would require quite a lot of work, while seaborn and plotly do it with few lines of code. Usually we use pairwise plots as our working plots.
 
 ## Deviation
+With deviation plots, we usually want to show, how much the data differ from certain value - it could be the mean or median, or the previous value. We might also want to show the change through time. Generally, with these kinds of graphs we want to stress, how different categories or over time, the data changes and varries. 
+
+In this repository, I covered:
+1. **Diverging Bar** - which displays how values for different categories varry from each other and their relation to specified point. In the given example, the middle value is the mean, but it can be median as well, or any specific, arbitrary value;
+2. **Area Bar Chart** - in which we color the area between the axis and the line. It throws more emphasis on the peaks, but also shows duarions of highs and lows.
+
+## Ranking
+Another type of visualizations we can create will show us some kind of ranking - whether we organize it or not, it will be very useful when speaking about groups and compare their quantities. It will show us leader and the end of the whole, and we can also show it through time. 
+
+Most commonly used when it comes to ranking or comparing volumes will be a bar charts. Fun fuct to know, if we create a bar chart with descending ordered values and on y-axis we present some kind of quantity - we will create so callet *paretto chart*, commonly used with machines.
+
+So in this repository we will create the following graphs:
+1. **Bar chart** - a classic when it comes to showing ranking and compare the volumes. 
+2. **Slope chart**
+3. **Wordcloud**
