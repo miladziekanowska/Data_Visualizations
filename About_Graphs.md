@@ -55,6 +55,7 @@ Another type of visualizations we can create will show us some kind of ranking -
 Most commonly used when it comes to ranking or comparing volumes will be a bar charts. Fun fuct to know, if we create a bar chart with descending ordered values and on y-axis we present some kind of quantity - we will create so callet *paretto chart*, commonly used with machines.
 
 So in this repository we will create the following graphs:
-1. **Bar chart** - a classic when it comes to showing ranking and compare the volumes. 
-2. **Slope chart**
-3. **Wordcloud**
+1. **Bar chart** - a classic when it comes to showing ranking and compare the volumes; 
+2. **Slope chart** - which is a great show for comparing two or more different time stamps and rankings;
+3. **Wordcloud** - which is a very visual way to show present which categories are bigger than the others, more common or larger in general.
+
