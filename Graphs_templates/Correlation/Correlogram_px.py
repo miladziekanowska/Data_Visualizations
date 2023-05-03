@@ -12,4 +12,4 @@ corr = iris.corr(numeric_only=True)
 fig = px.imshow(corr, text_auto=True, aspect="auto")
 fig.show()
 
-plt.savefig('Correlogram_px.png')
+fig.write_image('Correlogram_px.png')

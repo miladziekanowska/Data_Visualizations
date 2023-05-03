@@ -18,4 +18,5 @@ fig = px.scatter(iris,
 # the trendline requires module statsmodels to be installed
 
 fig.show()
-plt.savefig('Scatter_plot_px.png')
+fig.write_image('Scatter_plot_px.png')
+

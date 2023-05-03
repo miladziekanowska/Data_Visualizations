@@ -12,4 +12,4 @@ df = healthexp[healthexp['Year'] == 1970]
 fig = px.bar(df, x='Country', y='Spending_USD', text_auto='.2s', title='Healthcare spendings in 1970')
 fig.show()
 
-plt.savefig('Bar_chart_px.png')
+fig.write_image('Bar_chart_px.png')
