@@ -63,8 +63,8 @@ So in this repository we will create the following graphs:
 Distribution is another quality of a data series, which will help us to determine what type of statistical methods we are going to use for the further analytics and predictions. There are many methods to determine the distribution without visualizations, however, creating a graph to showcase the distribution, so it’s much more readable and easy to see.
 
 The most commonly used graphs, that we will cover in code are:
-- histograms - which are the basic tool for displaying distribution. We can create them for continuous or categorical data, depending on the dataset or columns we are working with, and we can either display each additional category separately, by creating a layout, or we can stack them in one graph. It might also suggest the existence of strong outliers, if the xasis would be much wider at one end than most of the distribution;
-- boxplots - these are great to showcase the distribution and also display some of the values, such as mean or median, 25th and 75 percentile and clearly visualize outliers. We can create a boxplot for one data series or we could create a graph with boxplots for every category separately. An alternative for boxplots, which is slightly more aestheticly pleasing is a **violin plot**;
+- **histograms** - which are the basic tool for displaying distribution. We can create them for continuous or categorical data, depending on the dataset or columns we are working with, and we can either display each additional category separately, by creating a layout, or we can stack them in one graph. It might also suggest the existence of strong outliers, if the xasis would be much wider at one end than most of the distribution;
+- **boxplots** - these are great to showcase the distribution and also display some of the values, such as mean or median, 25th and 75 percentile and clearly visualize outliers. We can create a boxplot for one data series or we could create a graph with boxplots for every category separately. An alternative for boxplots, which is slightly more aestheticly pleasing is a **violin plot**;
 - **QQ-plot** - this plot is a more advanced technique and will do the plotting theoretical quantiles against the actual quantiles of our variable. That means it will show us, how much the values in our dataseries differ from the line of best fit (which would be the normal distribution), therefore show us how „normal” is our normal distribution. It is great at showing deviations and outliers/
 - **Population piramid** - in case we would need to create this piramid for any analysis. 
 
@@ -91,9 +91,8 @@ Important to remember when creating graphs for the data series composition:
 Most common for showcasing composition would be:
 - **Pie charts** - which are easy to read and create.
 - **Traditional bar charts** - also another staple. 
-- **Waffle chart** - because they look really cool;
 - **Tree map** - also because I find them interesting to look at
 
-## Grouping
-
-**Dendrogram** - which can be also very useful when grouping the data into categories
+## Other graphs
+In this repository I will not be covering the timeseries, however I will also create a few more useful graphs, for which I was not sure where to put them:
+- **Dendrogram** - which can be also very useful when grouping the data into categories
